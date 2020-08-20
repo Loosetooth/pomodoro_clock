@@ -1,12 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { Pomodoro } from './components/pomodoro/pomodoro';
 import * as serviceWorker from './serviceWorker';
+import {store} from './store';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Pomodoro store={store}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

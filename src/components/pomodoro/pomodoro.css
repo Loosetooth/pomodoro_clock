@@ -1,0 +1,58 @@
+
+#pomodoro {
+    padding-top: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: tomato;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 6px darkslategrey;
+}
+button {
+    margin: 5px;
+}
+#session-break{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 0px 50px;
+}
+#session {
+    border: solid 4px grey;
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px;
+    width: 230px;
+}
+#break {
+    border: solid 4px grey;
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px;
+    width: 230px;
+}
+#session-label {
+    font-size: 25px;
+}
+#break-label {
+    font-size: 25px;
+}
+#timer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timer {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px 50px 50px;
+    width: 300px;
+    border: solid 4px grey;
+    border-radius: 5px;
+    background-color: darkslategray;
+}

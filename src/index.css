@@ -1,3 +1,10 @@
+@font-face{
+  /* From: https://www.1001fonts.com/digital+clock-fonts.html */
+  font-family:'digital-clock-font';
+  src: url('./digital-7_mono.ttf');
+  /* src: url('./digital-7.ttf'); */
+ }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(64, 212, 138);
 }
 
 code {
